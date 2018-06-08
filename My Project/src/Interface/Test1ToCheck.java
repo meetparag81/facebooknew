@@ -11,7 +11,7 @@ public class Test1ToCheck implements A, B {
 	}
 
 	@Override
-	public double Add() 
+	public int Add() 
 	{
 		// TODO Auto-generated method stub
 		return 0;
