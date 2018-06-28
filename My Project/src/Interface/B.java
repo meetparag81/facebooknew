@@ -1,9 +1,10 @@
 package Interface;
 
-public interface B 
+public interface B extends A
 {
-	public void sum();
-	public double Add();
+	
+	public  void sum();
+	public  void Add();
 }
 
 

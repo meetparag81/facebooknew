@@ -3,8 +3,8 @@ package Interface;
 public interface A 
 {
 	
-	public void sum();
+	public boolean sum();
 	
-	public void Add();
+	public int Add();
 
 }
