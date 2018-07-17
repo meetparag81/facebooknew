@@ -12,7 +12,7 @@ public class Nine
 		{	
 			for(int k=2;k>=i;k--)
 			{
-			System.out.print("  ");
+			System.out.print(" ");
 			}
 			for(int j=1;j<=i;j++)
 			{
