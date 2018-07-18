@@ -9,6 +9,29 @@ public  class A
 		
 		
 	}
+	public static void multi()
+	{
+		
+	}
+	
+	final void Sum()
+	{
+		
+	}
+	public void div()
+	{
+		
+	}
+	
+	final void Sum(int a)
+	{
+		
+	}
+	
+	public static void multi(int a)// overloaded method should have diffrent name or signature should be diffrent
+	{
+		
+	}
 	
 
 }
