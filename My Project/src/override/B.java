@@ -2,13 +2,13 @@ package override;
 
 public class B extends A
 {
-	public String Add()// return tup of overriden method should be the same.
+	public String Add()// return type of overriden method should be the same.
 	{
 		return null;
 		
 	}
 	
-	public void Sum() // final macess modifier can not be overriden
+	public void Sum() // final acess modifier can not be overriden
 	{
 		
 	}
