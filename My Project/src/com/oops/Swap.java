@@ -1,6 +1,7 @@
-package Practice;
+package com.oops;
 
-public class Swap<Mydate> {
+public class Swap<Mydate> 
+{
 	int a;
 	int b;
 	int temp;
