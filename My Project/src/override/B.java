@@ -17,5 +17,9 @@ public class B extends A
 	{
 		
 	}
+	public static void multi()
+	{
+		System.out.println("Print the method name");
+	}
 
 }

@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+  <suite name="Default suite" duration-ms="94" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
-      <class name="SeleniumImportant.Annotation">
-        <test-method status="PASS" signature="sequence1()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence1" is-config="true" duration-ms="10" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+    <test name="Default test" duration-ms="94" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
+      <class name="SeleniumImportant.TestNGPriority">
+        <test-method status="PASS" signature="One()[pri:-1, instance:SeleniumImportant.TestNGPriority@2a556333]" name="One" duration-ms="10" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sequence1 -->
-        <test-method status="PASS" signature="sequence2()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence2" is-config="true" duration-ms="1" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+        </test-method> <!-- One -->
+        <test-method status="PASS" signature="Two()[pri:0, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Two" duration-ms="2" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sequence2 -->
-        <test-method status="PASS" signature="sequence3()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence3" is-config="true" duration-ms="0" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+        </test-method> <!-- Two -->
+        <test-method status="PASS" signature="Three()[pri:1, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Three" duration-ms="2" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sequence3 -->
-        <test-method status="PASS" signature="sequence4()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence4" is-config="true" duration-ms="1" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+        </test-method> <!-- Three -->
+        <test-method status="PASS" signature="Four()[pri:2, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Four" duration-ms="1" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sequence4 -->
-        <test-method status="PASS" signature="sequence5()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence5" duration-ms="5" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
+        </test-method> <!-- Four -->
+        <test-method status="PASS" signature="Five()[pri:3, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Five" duration-ms="1" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sequence5 -->
-        <test-method status="PASS" signature="sequence6()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence6" is-config="true" duration-ms="0" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sequence6 -->
-        <test-method status="PASS" signature="sequence8()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence8" is-config="true" duration-ms="1" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sequence8 -->
-        <test-method status="PASS" signature="sequence9()[pri:0, instance:SeleniumImportant.Annotation@3e57cd70]" name="sequence9" is-config="true" duration-ms="0" started-at="2018-07-17T17:41:26Z" finished-at="2018-07-17T17:41:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sequence9 -->
-      </class> <!-- SeleniumImportant.Annotation -->
+        </test-method> <!-- Five -->
+      </class> <!-- SeleniumImportant.TestNGPriority -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
