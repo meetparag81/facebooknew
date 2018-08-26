@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
+  <suite name="Suite" duration-ms="55" started-at="2018-08-26T13:48:30Z" finished-at="2018-08-26T13:48:30Z">
     <groups>
+      <group name="Car">
+        <method signature="Grouping.Car1()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Car1" class="SeleniumImportant.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Car2" class="SeleniumImportant.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Sedan1" class="SeleniumImportant.Grouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Grouping.Sedan1()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Sedan1" class="SeleniumImportant.Grouping"/>
+      </group> <!-- Sedan Car -->
     </groups>
-    <test name="Default test" duration-ms="94" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
-      <class name="SeleniumImportant.TestNGPriority">
-        <test-method status="PASS" signature="One()[pri:-1, instance:SeleniumImportant.TestNGPriority@2a556333]" name="One" duration-ms="10" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
+    <test name="Practice Grouping" duration-ms="55" started-at="2018-08-26T13:48:30Z" finished-at="2018-08-26T13:48:30Z">
+      <class name="SeleniumImportant.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Car1" duration-ms="12" started-at="2018-08-26T13:48:30Z" finished-at="2018-08-26T13:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- One -->
-        <test-method status="PASS" signature="Two()[pri:0, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Two" duration-ms="2" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Car2" duration-ms="5" started-at="2018-08-26T13:48:30Z" finished-at="2018-08-26T13:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Two -->
-        <test-method status="PASS" signature="Three()[pri:1, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Three" duration-ms="2" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:SeleniumImportant.Grouping@33c7e1bb]" name="Sedan1" duration-ms="1" started-at="2018-08-26T13:48:30Z" finished-at="2018-08-26T13:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Three -->
-        <test-method status="PASS" signature="Four()[pri:2, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Four" duration-ms="1" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Four -->
-        <test-method status="PASS" signature="Five()[pri:3, instance:SeleniumImportant.TestNGPriority@2a556333]" name="Five" duration-ms="1" started-at="2018-08-13T18:15:51Z" finished-at="2018-08-13T18:15:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Five -->
-      </class> <!-- SeleniumImportant.TestNGPriority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- SeleniumImportant.Grouping -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- Suite -->
 </testng-results>
