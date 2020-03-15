@@ -39,15 +39,18 @@ public class TestBase
 	public static void Initallization()
 	{
 		String browsername = prop.getProperty("browser");
-		if(browsername.equals("firefox"))
+		if(browsername.equals("chrome"))
 		{
-			System.setProperty("webdriver.gecko.driver","G:\\Javaprogramming\\Selenium\\Selenium Setup\\geckodriver.exe");
-			driver = new FirefoxDriver();		
-		}	
-		else if(browsername.equals("chrome"))
-		 {
 			 System.setProperty("webdriver.chrome.driver" ,"G:\\Javaprogramming\\Selenium\\Selenium Setup\\chromedriver\\chromedriver.exe");
-				driver = new ChromeDriver(); 
+				driver = new ChromeDriver();
+				
+		}	
+		else if(browsername.equals("firefox"))
+		 {
+			 
+				
+				System.setProperty("webdriver.gecko.driver","G:\\Javaprogramming\\Selenium\\Selenium Setup\\geckodriver.exe");
+				driver = new FirefoxDriver();	
 		 }
 		driver.get(prop.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(TestUtil.implicitwait , TimeUnit.SECONDS);
